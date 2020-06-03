@@ -1,0 +1,18 @@
+<div class='container'>
+    <div class='row'>
+        <h4>clgstudents Names Displayed From college Component</h4>
+        <div class='col-lg-12'>
+            <ul class="list-group">
+                <li class="list-group-item" *ngFor='let student Of clgstudents'>{{student}}</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class='row'>
+        <h4>students Names Passed from college Component to students Component and displayed </h4>
+        <div class='col-lg-12'>
+            <ul class="list-group">
+                <app-students *ngFor='let student Of students' [studentName]='student'></app-students>
+            </ul>
+        </div>
+    </div>

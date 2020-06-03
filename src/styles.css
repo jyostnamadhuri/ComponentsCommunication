@@ -1,0 +1,29 @@
+/* Add application styles & imports to this file! *//* You can add global styles to this file, and also import other style files */
+
+.class1 {
+    background-color: #0094ff;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    color: white;
+}
+
+.class2 {
+    background-color: #47f3aa;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    color: purple;
+}
+
+.company {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 5px;
+}
+
+.company1 {
+    border: 2px solid #ff00d4;
+    margin: 10px;
+    padding: 5px;
+}
